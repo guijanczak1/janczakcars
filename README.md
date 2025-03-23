@@ -41,29 +41,27 @@ src/
 │   │   │   └── dealership/
 │   │   │       └── janczakcars/
 │   │   │           ├── adapter/
-│	│	│				└── input/
-│	│	│					└── order/
-│	│	│						└── dto/
-│	│	│						└── OrderControllerImpl.java
-│	│	│					└── product/				
-│	│	│						└── dto/
-│	│	│						└── ProductControllerImpl.java
-│	│	│				└── output/
-│	│	│					└── models/
-│   │   │           ├── domain/ 
-│	│	│				└── enums/   
-│	│	│				└── mappers/
-│	│	│				└── port/
-│	│	│				└── services/
+│   │   │           │   ├── input/
+│   │   │           │   │   ├── order/
+│   │   │           │   │   │   └── dto/
+│   │   │           │   │   │   └── OrderControllerImpl.java
+│   │   │           │   │   └── product/
+│   │   │           │   │       └── dto/
+│   │   │           │   │       └── ProductControllerImpl.java
+│   │   │           ├── output/
+│   │   │           │   └── models/
+│   │   │           ├── domain/
+│   │   │           │   ├── enums/
+│   │   │           │   ├── mappers/
+│   │   │           │   ├── port/
+│   │   │           │   └── services/
 │   │   │           └── port/
-│	│	│				└── input/
-│	│	│					└── order/
-│	│	│						└── dto/
-│	│	│						└── OrderControllerPort.java
-│	│	│					└── product/				
-│	│	│						└── dto/
-│	│	│						└── ProductControllerPort.java
-│	│	│				└── output/
+│   │   │               ├── input/
+│   │   │               │   ├── order/
+│   │   │               │   │   └── OrderControllerPort.java
+│   │   │               │   └── product/
+│   │   │               │       └── ProductControllerPort.java
+│   │   │               └── output/
 │   └── resources/
 │       ├── application.properties
 │       └── static/
